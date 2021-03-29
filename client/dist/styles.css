@@ -1,0 +1,397 @@
+html,
+body {
+  background: #efefef;
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+  font-size: 1em;
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  font-variant-ligatures: none;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+input {
+  outline: none;
+}
+:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+html,
+body {
+  -webkit-overflow-scrolling: touch;
+  background: #f5b87d;
+  cursor: url("https://desk-space.herokuapp.com/assets/light.png"), default;
+  color: #51555b;
+  font-weight: 400;
+}
+.app {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 375px;
+  height: 812px;
+  transition: all 0.5s ease;
+  background: #f4f4f4;
+  cursor: url("https://desk-space.herokuapp.com/assets/dark.png"), default;
+  border-radius: 24px;
+  overflow: hidden;
+}
+.NavBar {
+  background: #fff;
+  height: auto;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 24px;
+  z-index: 100;
+  box-shadow: 0rem 1rem 1.5rem 0rem rgba(0,0,0,0.05);
+}
+.MenuButton {
+  height: 24px;
+  width: 24px;
+  background: url("./media/MenuButton.svg") no-repeat center;
+  background-size: cover;
+  border: none;
+}
+.MenuButton:hover {
+  opacity: 0.5;
+  transition: all 0.5s ease;
+}
+.Logo {
+  height: 18px;
+  width: 46px;
+  background: url("./media/Logo.svg") no-repeat center;
+  background-size: cover;
+  position: absolute;
+  margin: auto;
+  top: 24;
+  right: 0;
+  left: 0;
+}
+.ProfileContainer {
+  width: 56px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Credits {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  background: #ffc71d;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  line-height: 24px;
+  font-size: 12px;
+}
+.Avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  background: url("https://assets.codepen.io/2485985/Avatar.png") no-repeat center;
+  background-size: cover;
+}
+.Main {
+  position: absolute;
+  margin: auto;
+  top: 72px;
+  right: 0;
+  left: 0;
+}
+.Hero {
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 24px 24px 24px 24px;
+  color: #51555b;
+  font-size: 24px;
+  border-radius: 0 0 8px 8px;
+  font-weight: 700;
+  line-height: 30px;
+  z-index: 50;
+}
+.HeroText {
+  margin: 0 0 24px 0;
+}
+.SearchContainer {
+  position: relative;
+  width: 100%;
+  height: 32px;
+  background: #fff;
+  border-radius: 32px;
+}
+.SearchIcon {
+  position: relative;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 11px;
+  background: url("https://assets.codepen.io/2485985/SearchIcon.svg") no-repeat center;
+  background-size: cover;
+}
+.SearchText {
+  position: absolute;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 100px;
+  top: 1px;
+  border: 1px solid 0px;
+  border-width: 0px;
+  margin: 0;
+  padding: 10px 0;
+  text-indent: none;
+  -webkit-appearance: none;
+}
+::-webkit-input-placeholder {
+  color: #51555b;
+  opacity: 0.5;
+}
+::-moz-placeholder {
+  color: #51555b;
+  opacity: 0.5;
+}
+:-ms-input-placeholder {
+  color: #51555b;
+  opacity: 0.5;
+}
+::placeholder {
+  color: #51555b;
+  opacity: 0.5;
+}
+.Divider {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 32px;
+  bottom: 0;
+  height: 16px;
+  width: 1px;
+  background: #51555b;
+  border-radius: 1px;
+  opacity: 0.25;
+}
+.Dropdown {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0px;
+  bottom: 0;
+  width: 12px;
+  height: 6px;
+  margin: 13px;
+  background: #f66;
+  background: url("https://assets.codepen.io/2485985/DropdownButton.svg") no-repeat center;
+  background-size: cover;
+}
+.Feed {
+  position: relative;
+  height: 600px;
+  overflow: scroll;
+}
+.Promoted {
+  position: relative;
+  height: auto;
+  padding: 0px 24px 0px 24px;
+  overflow: scroll;
+}
+.ScrollFeed {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: scroll;
+  margin: 0 0 0 0px;
+}
+.ScrollContainer {
+  position: relative;
+  height: 156px;
+  width: 1604px;
+  padding: 0 24px 0 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+.CategoryContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 0 0px 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+#Promoted .CategoryText {
+  color: #f99954;
+  opacity: 1;
+}
+.CategoryText {
+  position: relative;
+  font-size: 12px;
+  font-weight: 600;
+  color: #51555b;
+  opacity: 0.5;
+  margin: 0 0 8px 0;
+}
+.Products {
+  position: relative;
+  margin: 24px 0 24px 24px;
+}
+.Products > .CategoryContainer {
+  margin-top: 24px;
+}
+.ProductCard {
+  position: relative;
+  height: 148px;
+  width: 100%;
+  margin: 0 0 8px 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+.ProductCard:hover .ProductImage {
+  transform: scale(1.2);
+}
+.ProductCardSmall {
+  width: 124px;
+  margin: 0 24px 0 0;
+}
+#Active {
+  opacity: 0.5;
+  z-index: 50;
+}
+.ProductImageContainer {
+  position: relative;
+  width: 100%;
+  height: 124px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0 0 8px 0;
+}
+.ProductImage {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease;
+  background: no-repeat center;
+  background-size: cover;
+}
+.AddButton {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  height: 32px;
+  width: 40px;
+  background: #fff;
+  border-radius: 0 0 0 8px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 32px;
+  transition: all 0.5s ease;
+  z-index: 20;
+  border: none;
+}
+.CardNotification {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  height: 32px;
+  width: 86px;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 32px;
+  transition: all 0.5s ease;
+  opacity: 1;
+  z-index: 100;
+}
+.ProductInfo {
+  width: 100%;
+  height: 16px;
+  margin: 0 0 8px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 12px;
+}
+.ProductTitle {
+  position: relative;
+  font-weight: 700;
+}
+.ProductPrice {
+  position: relative;
+}
+.Cart {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  bottom: 24px;
+  height: 56px;
+  width: auto;
+  padding: 0 16px;
+  border-radius: 8px 0 0 0;
+  z-index: 100;
+  background: #fff;
+  box-shadow: 0rem -1rem 1.5rem 0rem rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+}
+.CartIcon {
+  height: 24px;
+  width: 24px;
+  margin: 0 8px 0 0;
+  background: url("") no-repeat center;
+  background-size: cover;
+}
+.CartCounter {
+  position: relative;
+  color: #f99954;
+  font-weight: 700;
+}
+@media (max-width: 414px) {
+  .app {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+  .NavBar {
+    position: fixed;
+  }
+  .Hero {
+    position: fixed;
+  }
+  .VerticalScroll {
+    position: absolute;
+    margin: auto;
+    top: 180px;
+    right: 0;
+    left: 0;
+  }
+  .Cart {
+    position: absolute;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+  }
+}

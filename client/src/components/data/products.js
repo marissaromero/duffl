@@ -1,0 +1,88 @@
+const productData = [
+  {
+    productId: 1,
+    product: 'Fruit Tea',
+    price: '7.99',
+    image: './media/fruittea.png',
+    tags: ['new', 'healthy', 'drinks'],
+  },
+  {
+    productId: 2,
+    product: 'Matcha',
+    price: '7.99',
+    image: './media/matcha.png',
+    tags: ['new', 'healthy', 'drinks'],
+  },
+  {
+    productId: 3,
+    product: 'CBD Gum',
+    price: '7.99',
+    image: './media/cbdgum.png',
+    tags: ['new', 'healthy', 'snacks'],
+  },
+  {
+    productId: 4,
+    product: 'Ice Cream',
+    price: '7.99',
+    image: './media/icecream.png',
+    tags: ['new', 'healthy', 'food'],
+  },
+  {
+    productId: 5,
+    product: 'CBD Drink',
+    price: '7.99',
+    image: './media/cbddrink.png',
+    tags: ['new', 'healthy', 'drinks'],
+  },
+  {
+    productId: 6,
+    product: 'Face Cream',
+    price: '7.99',
+    image: './media/facecream.png',
+    tags: ['new', 'healthy', 'misc'],
+  },
+  {
+    productId: 7,
+    product: 'Acai Bowl',
+    price: '7.99',
+    image: './media/acaibowl.png',
+    tags: ['new', 'healthy', 'food'],
+  },
+  {
+    productId: 8,
+    product: 'Chocolate Bar',
+    price: '7.99',
+    image: './media/chocolatebar.png',
+    tags: ['new', 'healthy', 'food'],
+  },
+  {
+    productId: 9,
+    product: 'Sun Chaser',
+    price: '7.99',
+    image: './media/sunchaser.png',
+    tags: ['new', 'healthy', 'drinks'],
+  },
+  {
+    productId: 10,
+    product: 'Tea Leaves',
+    price: '7.99',
+    image: './media/tea.png',
+    tags: ['new', 'healthy', 'drinks'],
+  },
+  {
+    productId: 11,
+    product: 'Vegan Sushi',
+    price: '7.99',
+    image: './media/vegansushi.png',
+    tags: ['new', 'healthy', 'food'],
+  },
+  {
+    productId: 12,
+    product: 'Acai + Cherry Bowl Smoothie',
+    price: '7.99',
+    image: './media/smoothie.png',
+    tags: ['promoted'],
+  },
+];
+
+export default productData;
