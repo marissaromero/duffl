@@ -40,6 +40,7 @@ function Main() {
           image={promoted.image}
           name={promoted.product}
           price={promoted.price}
+          updateCart={updateCart}
         />
         <Products products={products} categories={categories} updateCart={updateCart} />
       </div>

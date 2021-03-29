@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React, { useEffect } from 'react';
+import React from 'react';
 import Product from './Product.jsx';
 
 function Category({ name, products, updateCart }) {
