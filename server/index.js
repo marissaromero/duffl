@@ -7,6 +7,6 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use('/', express.static(path.resolve(__dirname, '../client/dist')));
 
-app.listen(8080, () => {
-  console.log('listening on port 8080!');
+app.listen(3000, () => {
+  console.log('listening on port 3000!');
 });
