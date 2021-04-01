@@ -1,4 +1,4 @@
-const category = [
+const categoryData = [
   'New',
   'Order Again',
   'Game Day',
@@ -7,4 +7,4 @@ const category = [
   'Grocery',
 ];
 
-export default category;
+export default categoryData;
