@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import Product from './Product.jsx';
+import Product from './product.jsx';
 
 function Category({ name, products, updateCart }) {
   return (
