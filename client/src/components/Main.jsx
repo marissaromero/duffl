@@ -3,8 +3,8 @@ import SearchContainer from './SearchContainer.jsx';
 import Promoted from './Promoted.jsx';
 import Products from './Products.jsx';
 import Cart from './Cart.jsx';
-import productData from './data/products.js';
-import categoryData from './data/category.js';
+import productData from './data/productData.js';
+import categoryData from './data/categoryData.js';
 
 function Main() {
   const [products, setProducts] = useState(productData.slice(0, productData.length - 1));
