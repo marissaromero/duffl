@@ -6,3 +6,5 @@ client/dist/bundle.js
 
 #instance pem
 *.pem
+# Local Netlify folder
+.netlify
