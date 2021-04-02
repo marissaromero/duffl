@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import SearchContainer from './searchcontainer.jsx';
-import Promoted from './promoted.jsx';
-import Products from './products.jsx';
-import Cart from './cart.jsx';
-import productData from './data/productdata.js';
-import categoryData from './data/categorydata.js';
+import SearchContainer from './SearchContainer';
+import Promoted from './Promoted';
+import Products from './Products';
+import Cart from './Cart';
+import productData from './data/productData';
+import categoryData from './data/categoryData';
 
 function Main() {
   const [products, setProducts] = useState(productData.slice(0, productData.length - 1));
