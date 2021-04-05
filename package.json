@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server",
-    "build": "webpack --config webpack.config.js"
+    "build": "webpack --config webpack.production.config.js",
+    "client-development": "webpack --config webpack.development.config.js"
   },
   "heroku-run-build-script": true,
   "author": "Marissa Romero",
